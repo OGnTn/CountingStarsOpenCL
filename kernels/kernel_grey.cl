@@ -1,5 +1,5 @@
-__kernel void kernel_grey(__global unsigned int *input,
-                          __global unsigned int *output, const int width,
+__kernel void kernel_grey(__global unsigned char *input,
+                          __global unsigned char *output, const int width,
                           const int height, const int depth) {
   int i = get_global_id(0);
   int j = get_global_id(1);

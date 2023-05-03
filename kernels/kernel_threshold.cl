@@ -1,4 +1,4 @@
-__kernel void kernel_threshold(__global unsigned int *input,
+__kernel void kernel_threshold(__global unsigned char *input,
                                __global unsigned int *output_brightness,
                                const int width, const int height) {
 
