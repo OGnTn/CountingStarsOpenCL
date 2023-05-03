@@ -4,8 +4,7 @@ __kernel void kernel_stars(__global unsigned int *input,
 
   int gid = get_global_id(0) * get_local_size(0);
   for (int i = 0; i < get_local_size(0); i++) {
-    // int i = get_local_id(0);
-    // printf("i: %d\n", i);
+
     int window_size = 3;
     int current_pixel = gid + i;
     int current_pixel_brightness = input[current_pixel];

@@ -1,12 +1,3 @@
-//__kernel void kernel_threshold(__global unsigned char *input,
-//                               __global unsigned long *output_brightness,
-//                               const int width, const int height) {
-//  int i = get_global_id(0);
-//  int j = get_global_id(1);
-//
-//
-//  output_brightness[0] = output_brightness[0] + input[i * width + j];
-//}
 __kernel void kernel_threshold(__global unsigned int *input,
                                __global unsigned int *output_brightness,
                                const int width, const int height) {
