@@ -15,11 +15,11 @@ WINDOW_SIZE = 3
 
 IMAGES = [
     # "./images/IRAS-19312-1950.jpg",  # 675x1200 = 810.000 pixels
-     "./images/behemoth-black-hole.jpg",  # 2219x2243 = 4.977.217 pixels
-    # "./images/NGC-362.jpg",  # 2550x2250 = 5.737.500 pixels
+    # "./images/behemoth-black-hole.jpg",  # 2219x2243 = 4.977.217 pixels
+    "./images/NGC-362.jpg",  # 2550x2250 = 5.737.500 pixels
     # "./images/omega-nebula.jpg",  # 2435x3000 = 7.305.000 pixels
     # "./images/andromeda-2.jpg",  # 6000x6000 = 36.000.000 pixels
-    #"./images/andromeda.jpg",  # 6200x6200 = 38.440.000 pixels
+    # "./images/andromeda.jpg",  # 6200x6200 = 38.440.000 pixels
     # "./images/cygnus-loop-nebula.jpg",  # 7000x9400 = 65.800.000 pixels
 ]
 
